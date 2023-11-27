@@ -104,8 +104,13 @@
 }
 .popoverIcon {
     width: 20px;
+    cursor: pointer;
 }
 .postTitleArea {
     display: flex;
     justify-content: space-between;
 }
+.popoverItem {
+    cursor: pointer;
+}
+

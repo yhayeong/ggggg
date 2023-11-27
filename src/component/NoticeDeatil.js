@@ -20,9 +20,9 @@ const NoticeDetail = () => {
                         <div>
                             <img src={"/popover-icon.png" } alt="..." className="popoverIcon" onClick={()=>setOpen(!open)} id="Popover1"/>
                             <Popover  className="popover" placement="bottom" isOpen={open} target="Popover1" toggle={()=>setOpen(!open)}>
-                                <PopoverBody>숨김/해제</PopoverBody>
-                                <PopoverBody>수정</PopoverBody>
-                                <PopoverBody>삭제</PopoverBody>
+                                <PopoverBody className="popoverItem">숨김/해제</PopoverBody>
+                                <PopoverBody className="popoverItem">수정</PopoverBody>
+                                <PopoverBody className="popoverItem">삭제</PopoverBody>
                             </Popover><br/><br/><br/>
                         </div>
                     </div>

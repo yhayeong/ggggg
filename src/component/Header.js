@@ -9,7 +9,7 @@ const Header = () => {
     return(
         <div style={style}>
             <ul className='nav-items' style={{display:'flex', justifyContent:'space-between'}}>
-                <div>
+                <div style={{marginLeft: '100px'}}>
                     <li className='nav-item'>
                     <Link to={"/"} id="logo">MBTIsland<img src={"/desert-island.png"} alt='로고' width='30px' style={{marginLeft: '15px'}}/></Link>
                     </li>
@@ -23,7 +23,7 @@ const Header = () => {
                         <Link to={"/mbTmi"}>MB-TMI</Link>
                     </li>
                 </div>
-                <div style={{marginRight: '40px'}}>
+                <div style={{marginRight: '120px'}}>
                     <li className='nav-item'>
                         <Link to={"/login"}><Button>로그인</Button></Link>
                     </li>

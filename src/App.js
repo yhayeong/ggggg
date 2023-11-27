@@ -9,6 +9,8 @@ import Header from "./component/Header";
 import Footer from "./component/Footer";
 import NoticeList from "./component/NoticeList";
 import NoticeDetail from "./component/NoticeDeatil";
+import AdminNotice from "./component/AdminNotice";
+import AdminNoticeForm from "./component/AdminNoticeForm";
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
           <Route exact path="/" element={<Join />} />
           <Route exact path="/notice" element={<NoticeList/>} />
           <Route exact path="/noticeDetail" element={<NoticeDetail/>} />
+          <Route exact path="/adminNotice" element={<AdminNotice/>} />
+          <Route exact path="/adminNoticeForm" element={<AdminNoticeForm/>} />
         </Routes>
         <Footer />
       </BrowserRouter>

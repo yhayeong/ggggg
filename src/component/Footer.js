@@ -10,7 +10,7 @@ const Footer = () => {
         <div style={style}>
             <ul className='nav-items'>
                 <div>
-                    <label style={{marginLeft: '15px', fontSize:'30px', fontWeight: '600', marginRight:'40px'}}>MBTIsland</label>
+                    <label style={{marginLeft: '100px', fontSize:'30px', fontWeight: '600', marginRight:'40px'}}>MBTIsland</label>
                     <li className='nav-item'>
                         <Link to={"/notice"}>공지사항</Link>
                     </li>
