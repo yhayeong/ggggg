@@ -17,7 +17,7 @@ const Header = () => {
                         <Link to={"/mbtWhy"}>MBT-WHY</Link>
                     </li>
                     <li className="nav-item">
-                        <Link to={"/mBattleTi"}>M-Battle-TI</Link>
+                        <Link to={"/mBattle"}>M-BATTLE</Link>
                     </li>
                     <li className="nav-item">
                         <Link to={"/mbTmi"}>MB-TMI</Link>

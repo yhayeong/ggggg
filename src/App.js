@@ -11,6 +11,7 @@ import NoticeList from "./component/NoticeList";
 import NoticeDetail from "./component/NoticeDeatil";
 import AdminNotice from "./component/AdminNotice";
 import AdminNoticeForm from "./component/AdminNoticeForm";
+import MBTmi from "./component/MBTmi";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route exact path="/noticeDetail" element={<NoticeDetail/>} />
           <Route exact path="/adminNotice" element={<AdminNotice/>} />
           <Route exact path="/adminNoticeForm" element={<AdminNoticeForm/>} />
+          <Route exact path="/mbtmi" element={<MBTmi/>} />
         </Routes>
         <Footer />
       </BrowserRouter>

@@ -1,27 +1,27 @@
 import { Table } from "reactstrap";
 
-import "./Notice.css";
+import style from "./Notice.module.css";
 import React from "react";
 import {Link} from "react-router-dom";
 
 const Notice = () => {
     return (
         <>
-        <div className='container' style={{paddingTop: '80px'}}>
+        <div className={style.container}>
 
-            <section className='section'>
+            <section className={style.section}>
 
-                <div className="boardTitle" >공지사항</div>
+                <div className={style.boardTitle} >공지사항</div>
 
-                <div className='row1st' style={{display:'flex', justifyContent:'space-between'}}>
-                    총 101건 현재1/11페이지
-                    <div className='searchBar'>
+                <div className={style.row1st}>
+                    <h5>총 101건 현재1/11페이지</h5>
+                    <div className={style.searchBar}>
                         <input type="text"/>
-                        <img src={"/searchIcon.png" } alt="검색" className="searchBtn" />
+                        <img src={"/searchIcon.png" } alt="검색" className={style.searchBtn} />
                     </div>
                 </div>
 
-                <Table className="table">
+                <Table className={style.table}>
                     <tbody>
                         <tr>
                             <td>[공지]</td>
@@ -85,9 +85,9 @@ const Notice = () => {
                         </tr>
                     </tbody>
                 </Table>
-                <div className='paging'>
+                <div className={style.paging}>
                     <span>&lt;</span>
-                    <span className="active" style={{background:'#f8f8f8'}}>1</span>
+                    <span className={style.activePage}>1</span>
                     <span>2</span>
                     <span>3</span>
                     <span>4</span>
