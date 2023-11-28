@@ -1,6 +1,6 @@
 import { Nav, NavItem, NavLink, Table, Input } from "reactstrap";
 
-import style from "./AdminNotice.module.css";
+import style from "../../css/admin/AdminNotice.module.css";
 import React from "react";
 import {Link} from "react-router-dom";
 

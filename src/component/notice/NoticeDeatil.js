@@ -1,4 +1,4 @@
-import style from "./Notice.module.css";
+import style from "../../css/notice/Notice.module.css";
 import React, { useState } from "react";
 import {Link} from "react-router-dom";
 import { Popover, PopoverBody, PopoverHeader } from "reactstrap";

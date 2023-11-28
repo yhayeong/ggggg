@@ -1,6 +1,6 @@
 import { Table } from "reactstrap";
 
-import style from "./MBTmi.module.css";
+import style from "../../css/mbtmi/MBTmi.module.css";
 import React from "react";
 import {Link} from "react-router-dom";
 

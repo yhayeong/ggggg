@@ -1,6 +1,6 @@
 import { Table } from "reactstrap";
 
-import style from "./Notice.module.css";
+import style from "../../css/notice/Notice.module.css";
 import React from "react";
 import {Link} from "react-router-dom";
 

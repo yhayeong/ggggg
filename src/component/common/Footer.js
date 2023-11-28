@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import "./Footer.css";
+import style from "../../css/common/Footer.module.css";
 
 const Footer = () => {
 
@@ -8,19 +8,19 @@ const Footer = () => {
 
     return(
         <div style={style}>
-            <ul className='nav-items'>
+            <ul className={style.navItems}>
                 <div>
                     <label style={{marginLeft: '100px', fontSize:'30px', fontWeight: '600', marginRight:'40px'}}>MBTIsland</label>
-                    <li className='nav-item'>
+                    <li className={style.navItem}>
                         <Link to={"/notice"}>공지사항</Link>
                     </li>
-                    <li className="nav-item">
+                    <li className={style.navItem}>
                         <Link to={"/privacyPolicy"}>개인정보 처리방침</Link>
                     </li>
-                    <li className="nav-item">
+                    <li className={style.navItem}>
                         <Link to={"/termOfService"}>서비스 이용약관</Link>
                     </li>
-                    <li className="nav-item">
+                    <li className={style.navItem}>
                         <Link to={"/xxx"}>이메일 문의 emailadress@email.com</Link>
                     </li>
                 </div>
